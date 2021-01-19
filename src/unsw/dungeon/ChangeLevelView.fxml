@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="backgroundImage" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="changeLevelTitle" fitHeight="44.0" fitWidth="334.0" layoutX="134.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="level1Button" layoutX="162.0" layoutY="82.0" mnemonicParsing="false" onAction="#handleLevel1Button" prefHeight="49.0" prefWidth="276.0" text="Level 1" textFill="#d0901b">
+         <font>
+            <Font name="Liberation Mono" size="22.0" />
+         </font></Button>
+      <Button fx:id="level2Button" layoutX="162.0" layoutY="142.0" mnemonicParsing="false" onAction="#handleLevel2Button" prefHeight="49.0" prefWidth="276.0" text="Level 2" textFill="#d0901b">
+         <font>
+            <Font name="Liberation Mono" size="22.0" />
+         </font></Button>
+      <Button fx:id="level3Button" layoutX="162.0" layoutY="208.0" mnemonicParsing="false" onAction="#handleLevel3Button" prefHeight="49.0" prefWidth="276.0" text="Level 3" textFill="#d0901b">
+         <font>
+            <Font name="Liberation Mono" size="22.0" />
+         </font></Button>
+      <Button fx:id="returnToMenuButton" layoutX="162.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleReturnToMenuButton" prefHeight="49.0" prefWidth="276.0" text="Return to Menu" textFill="#d0901b">
+         <font>
+            <Font name="Liberation Mono" size="22.0" />
+         </font></Button>
+      <Button fx:id="level4Button" layoutX="162.0" layoutY="269.0" mnemonicParsing="false" onAction="#handleLevel4Button" prefHeight="49.0" prefWidth="276.0" text="Level 4" textFill="#d0901b">
+         <font>
+            <Font name="Liberation Mono" size="22.0" />
+         </font></Button>
+   </children>
+</Pane>
